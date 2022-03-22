@@ -1,0 +1,62 @@
+{
+  "nodes": {
+    "flakeNimbleLib": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647920574,
+        "narHash": "sha256-D3ob5QykELhyNcTnISOkjEzLlgXltwON8Ucrz5cpiQI=",
+        "owner": "riinr",
+        "repo": "nim-flakes-lib",
+        "rev": "bfb46a1f762002f07f9d81d93dacd544c6890623",
+        "type": "github"
+      },
+      "original": {
+        "owner": "riinr",
+        "ref": "master",
+        "repo": "nim-flakes-lib",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "narHash": "sha256-+8mazL4KLh6VltXYJc5+QFA5Q1i+Uh/TadRl9/+qcx8=",
+        "path": "/nix/store/gddrvlqs5qf1bp3kc80gp3qg5vm8kj76-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flakeNimbleLib": "flakeNimbleLib",
+        "nixpkgs": "nixpkgs",
+        "src-tissue-master": "src-tissue-master"
+      }
+    },
+    "src-tissue-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1536948127,
+        "narHash": "sha256-Ux8jXBhH+JDzVmbksviqYuMKFjEXMBN4AiwAW3xMT8U=",
+        "owner": "genotrance",
+        "repo": "tissue",
+        "rev": "64e1ddd45c5df8d8d4d9355751f37878a5be6df7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "genotrance",
+        "ref": "refs/heads/master",
+        "repo": "tissue",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

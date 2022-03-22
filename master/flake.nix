@@ -9,7 +9,7 @@
   
   inputs.src-tissue-master.flake = false;
   inputs.src-tissue-master.owner = "genotrance";
-  inputs.src-tissue-master.ref   = "refs/heads/master";
+  inputs.src-tissue-master.ref   = "master";
   inputs.src-tissue-master.repo  = "tissue";
   inputs.src-tissue-master.type  = "github";
   

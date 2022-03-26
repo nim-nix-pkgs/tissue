@@ -11,6 +11,7 @@
   inputs.src-tissue-master.ref   = "refs/heads/master";
   inputs.src-tissue-master.owner = "genotrance";
   inputs.src-tissue-master.repo  = "tissue";
+  inputs.src-tissue-master.dir   = "";
   inputs.src-tissue-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

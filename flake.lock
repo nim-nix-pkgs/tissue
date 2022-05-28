@@ -68,11 +68,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1653690262,
-        "narHash": "sha256-2qalAL6YOadsALDUF1dJS1fk+Nh/h5Y1YH0tsc/eXDc=",
+        "lastModified": 1653696868,
+        "narHash": "sha256-FETmyI46Uveags1+mx+8rfrOXiw/JpY71/AX0RaZbF4=",
         "owner": "nim-nix-pkgs",
         "repo": "tissue",
-        "rev": "a07ba3aad25bc6a55566ae9512e491427a0b9d2b",
+        "rev": "962eb9be59b2bde5ddb9915368df58e3080d07ea",
         "type": "github"
       },
       "original": {
